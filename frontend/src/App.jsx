@@ -333,14 +333,7 @@ const AppRoutes = () => {
         />
 
         {/* Existing Feature Pages - No auth required */}
-        <Route 
-          path="/market-prices" 
-          element={
-            <Layout>
-              <PriceTracker />
-            </Layout>
-          } 
-        />
+        
 
         <Route 
           path="/crop-guide" 
@@ -378,14 +371,7 @@ const AppRoutes = () => {
           } 
         />
 
-        <Route 
-          path="/iot-dashboard" 
-          element={
-            <Layout>
-              <IoTDashboard />
-            </Layout>
-          } 
-        />
+        
 
         {/* 404 Route */}
         <Route 
