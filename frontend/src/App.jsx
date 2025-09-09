@@ -13,12 +13,12 @@ const SoilHealthAnalysis = React.lazy(() => import('./components/SoilHealthAnaly
 const LocationCropRecommendations = React.lazy(() => import('./components/LocationCropRecommendations'));
 const WeatherAlerts = React.lazy(() => import('./components/WeatherAlerts'));
 const FeedbackSystem = React.lazy(() => import('./components/FeedbackSystem'));
-const PriceTracker = React.lazy(() => import('./components/PriceTracker'));
+//const PriceTracker = React.lazy(() => import('./components/PriceTracker'));
 const CropGuide = React.lazy(() => import('./components/CropGuide'));
 const DiseaseDetector = React.lazy(() => import('./components/DiseaseDetector'));
 const CostCalculator = React.lazy(() => import('./components/CostCalculator'));
 const Chatbot = React.lazy(() => import('./components/Chatbot'));
-const IoTDashboard = React.lazy(() => import('./components/IoTPlaceholder')); // Fixed import
+//const IoTDashboard = React.lazy(() => import('./components/IoTPlaceholder')); // Fixed import
 
 // Loading component
 const LoadingSpinner = () => (
